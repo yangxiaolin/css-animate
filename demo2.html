@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>demo2</title>
+  <style>
+    #container {
+      width: 200px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bubble {
+      width: 10px;
+      height: 100px;
+      margin: 0 5px;
+      background-color: #f00;
+      animation: bubble 1.2s infinite ease-in-out;
+    }
+
+    .bubble-2 {
+      animation-delay: 0.1s;
+    }
+
+    .bubble-3 {
+      animation-delay: 0.2s;
+    }
+
+    .bubble-4 {
+      animation-delay: 0.3s;
+    }
+
+    .bubble-5 {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes bubble {
+      0%, 40%, 100% {
+        transform: scaleY(0.4);
+      }
+
+      20% {
+        transform: scaleY(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="bubble bubble-1"></div>
+    <div class="bubble bubble-2"></div>
+    <div class="bubble bubble-3"></div>
+    <div class="bubble bubble-4"></div>
+    <div class="bubble bubble-5"></div>
+</div>
+</body>
+</html>
