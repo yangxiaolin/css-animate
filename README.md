@@ -1,3 +1,3 @@
 # css-animate
 
-first demo is [here](https://jsfiddle.net/smallin/L8hjuvd1/1/)
+first demo is [here](https://jsfiddle.net/smallin/L8hjuvd1/7/)
