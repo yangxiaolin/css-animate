@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>demo4</title>
+  <style>
+    .wrapper {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .animate-ele {
+      width: 100px;
+      height: 100px;
+      background-color: aquamarine;
+      animation: rotate 1.2s infinite ease-in-out;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotateX(0deg) rotateY(0deg)
+      }
+
+      50% {
+          transform: rotateX(-180.1deg) rotateY(0deg)
+      }
+
+      100% {
+          transform: rotateX(-180deg) rotateY(-179.9deg)
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="animate-ele"></div>
+  </div>
+</body>
+</html>
