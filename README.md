@@ -10,3 +10,5 @@ demo2(<b>bubble</b>) is [here](https://jsfiddle.net/smallin/69z2wepo/200618/)
 demo3(<b>scale</b>) is [here](https://jsfiddle.net/smallin/69z2wepo/200676/)
 
 demo4(<b>rotate</b>) is [here](https://jsfiddle.net/smallin/sv9nfk7p/)
+
+demo5(<b>rotate(2)</b>) is [here](https://codesandbox.io/s/yjz13jvnwx)
