@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>demo5</title>
+  <style>
+    .container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+    .item {
+      position: absolute;
+      width: 0px;
+      height: 100px;
+      top: 50%;
+      left: 50%;
+      margin-top: -50px;
+      margin-left: 0;
+    }
+    .item::after {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #00f;
+      content: ' ';
+    }
+    .item-1 {
+      animation: rotate infinite cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    }
+    
+    .item-2 {
+      animation: rotate infinite cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+      animation-delay: 0.2s;
+    }
+
+    .item-3 {
+      animation: rotate infinite cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+      animation-delay: 0.4s;
+    }
+    
+    .item-4 {
+      animation: rotate infinite cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+      animation-delay: 0.6s;
+    }
+    
+    .item-5 {
+      animation: rotate infinite cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+      animation-delay: 0.8s;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-4"></div>
+    <div class="item item-5"></div>
+  </div>
+</body>
+</html>
