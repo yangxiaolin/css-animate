@@ -18,3 +18,5 @@ demo6(<b>rotate(3)</b>) is [here](https://codesandbox.io/s/mj8j9n3o3p)
 demo7(<b>loading</b>) is [here](https://codesandbox.io/s/l39y61604l)
 
 demo8(<b>wave</b>) is [here](https://codesandbox.io/s/w1n07p957)
+
+demo9(<b>rotate(4)</b>) is [here](https://codesandbox.io/s/2vzz53lvmr)
