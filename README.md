@@ -12,3 +12,9 @@ demo3(<b>scale</b>) is [here](https://jsfiddle.net/smallin/69z2wepo/200676/)
 demo4(<b>rotate</b>) is [here](https://jsfiddle.net/smallin/sv9nfk7p/)
 
 demo5(<b>rotate(2)</b>) is [here](https://codesandbox.io/s/yjz13jvnwx)
+
+demo6(<b>rotate(3)</b>) is [here](https://codesandbox.io/s/mj8j9n3o3p)
+
+demo7(<b>loading</b>) is [here](https://codesandbox.io/s/l39y61604l)
+
+demo8(<b>wave</b>) is [here](https://codesandbox.io/s/w1n07p957)

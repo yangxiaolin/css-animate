@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>demo7</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      overflow: hidden;
+    }
+    .item {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      margin-top: -10px;
+      border-radius: 50%;
+      background-color: #f00;
+      animation: rotate 2.3s infinite linear;
+    }
+    
+    .item-1 {
+      animation-delay: -0.4s;
+    }
+
+    .item-2 {
+      animation-delay: -0.8s;
+    }
+    
+    .item-3 {
+      animation-delay: -1.2s;
+    }
+    
+    .item-4 {
+      animation-delay: -1.6s;
+    }
+
+    @keyframes rotate {
+      0% {
+        left: 10%;
+        opacity: 0;
+        background: rgb(255,255,0);
+      }
+      10% {
+        left: 30%;
+		    opacity: 1;
+      }
+      90% {
+        left: 70%;
+        opacity: 1;
+      }
+      100% {
+        left: 90%;
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-4"></div>
+  </div>
+</body>
+</html>

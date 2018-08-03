@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>demo8</title>
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .container {
+      width: 300px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .item {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #1565c0;
+      animation: wave 1.8s infinite linear;
+    }
+    
+    .item-2 {
+      animation-delay: 0.2s;
+    }
+    
+    .item-3 {
+      animation-delay: 0.4s;
+    }
+    
+    .item-4 {
+      animation-delay: 0.6s;
+    }
+    
+    .item-5 {
+      animation-delay: 0.8s;
+    }
+
+    .item-6 {
+      animation-delay: 1s;
+    }  
+
+    .item-7 {
+      animation-delay: 1.2s;
+    }
+
+    .item-8 {
+      animation-delay: 1.4s;
+    }
+
+    @keyframes wave {
+      0% {
+        transform: translateY(0px);
+      }
+      40% {
+        transform: translateY(-92px);
+      }
+      50% {
+        transform: translateY(-100px);
+      }
+      60% {
+        transform: translateY(-92px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-4"></div>
+    <div class="item item-5"></div>
+    <div class="item item-6"></div>
+    <div class="item item-7"></div>
+    <div class="item item-8"></div>
+  </div>
+</body>
+</html>
